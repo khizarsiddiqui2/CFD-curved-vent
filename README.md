@@ -39,6 +39,32 @@ A curved duct was modeled in SolidWorks, cleaned and prepared in Ansys SpaceClai
 | Static pressure range | -626 to +442 Pa |
 | Mass conservation error | 3.4% |
 
+## Results Gallery
+
+### Velocity Magnitude Contour
+![Velocity Contour](images/velocity%20contour.png)
+
+Velocity distribution across the duct walls showing 1.5x acceleration along the outer curve due to centrifugal effects.
+
+### Static Pressure Contour
+![Pressure Contour](images/pressure%20contour.png)
+
+Static pressure field showing pressure drop across the bend. Maximum pressure at inlet (442 Pa), minimum near outlet (-626 Pa).
+
+### Flow Pathlines
+![Pathlines](images/pathlines.png)
+
+Streamlines through the curved duct revealing secondary flow circulation (Dean vortices) — a classical feature of curved internal flows.
+
+### Mass Flow Validation
+![Mass Flow Report](images/mass%20flow%20rate.png)
+
+Mass flow rate measured at 0.398 kg/s at inlet. Net imbalance of 3.4% indicates room for further convergence refinement.
+
+### Residuals Plot
+![Residuals](images/residuals.png)
+
+Solution convergence — k, omega, and velocity components reached below 1e-4. Continuity reached 1e-3 after 73 iterations.
 ## Engineering Observations
 
 - **Dean vortices** clearly captured in pathline visualization, confirming secondary flow circulation typical of curved pipe geometry
@@ -57,6 +83,7 @@ A curved duct was modeled in SolidWorks, cleaned and prepared in Ansys SpaceClai
 - Ansys SpaceClaim 2026 R1 (geometry preparation)
 - Ansys Fluent Meshing 2026 R1 (Watertight Workflow)
 - Ansys Fluent 2026 R1 (CFD solver)
+- 
 
 ## Author
 
