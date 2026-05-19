@@ -83,8 +83,7 @@ Solution convergence — k, omega, and velocity components reached below 1e-4. C
 - Ansys SpaceClaim 2026 R1 (geometry preparation)
 - Ansys Fluent Meshing 2026 R1 (Watertight Workflow)
 - Ansys Fluent 2026 R1 (CFD solver)
-- 
-
+  
 ## Author
 
 Muhammad Khizar Siddiqui 
