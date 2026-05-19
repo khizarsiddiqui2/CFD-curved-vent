@@ -86,6 +86,6 @@ Solution convergence — k, omega, and velocity components reached below 1e-4. C
   
 ## Author
 
-Muhammad Khizar Siddiqui 
+Muhammad Khizar Siddiqui  
 Structural Design & CFD Engineer | Composites | Drones & Defence  
-[[LinkedIn URL]](https://www.linkedin.com/in/khizar-siddiqui-962061203 )
+[LinkedIn](https://www.linkedin.com/in/khizar-siddiqui-962061203)
